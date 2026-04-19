@@ -52,6 +52,11 @@
 
 ### 1.1. Tên ứng dụng
 **SpendWise** – Quản lý chi tiêu thông minh
+- Ứng dụng quản lý chi tiêu được phát triển bằng React Native sử dụng nền tảng Expo nhằm hỗ trợ xây dựng ứng dụng đa nền tảng (Android và iOS). Hệ thống sử dụng SQLite (thông qua Expo SQLite) để lưu trữ dữ liệu cục bộ, đảm bảo khả năng hoạt động offline.
+
+- Kiến trúc ứng dụng được tổ chức theo mô hình phân lớp bao gồm: giao diện (screens), quản lý trạng thái (Context API), lớp xử lý nghiệp vụ (services) và lớp truy xuất dữ liệu (database). Điều hướng trong ứng dụng được реализ bởi thư viện React Navigation với sự kết hợp giữa Bottom Tab Navigator và Stack Navigator.
+
+- Ngoài ra, ứng dụng sử dụng React Native Paper để xây dựng giao diện người dùng theo chuẩn Material Design, kết hợp với Expo Vector Icons để tăng tính trực quan.
 
 ### 1.2. Mục tiêu
 Xây dựng ứng dụng di động giúp người dùng:
