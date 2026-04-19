@@ -72,6 +72,17 @@ Xây dựng ứng dụng di động giúp người dùng:
 
 ### 1.4. Công nghệ sử dụng
 
+|Công nghệ                   | Mục đích              |
+|----------------------------|-----------------------|
+|React Native (Expo)         | Framework chính  |
+|React Navigation             |Điều hướng màn hình  |
+|Context API + useReducer    | Quản lý state nâng cao  |
+|SQLite (expo-sqlite)        | Lưu trữ dữ liệu offline  |
+|AsyncStorage                | Lưu cài đặt người dùng  |
+|react-native-chart-kit      | Vẽ biểu đồ thống kê  |
+|React Native Paper          | UI components  |
+|Expo Vector Icons           | Hiển thị icon  |
+
 | Công nghệ | Mục đích |
 |-----------|----------|
 | React Native (Expo) | Framework chính |
