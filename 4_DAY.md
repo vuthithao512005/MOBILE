@@ -1,5 +1,36 @@
 # 📊 BẢNG PHÂN CÔNG CÔNG VIỆC (4 NGÀY)
 
+## Cấu trúc thư mục src/
+ ├── database/
+ │   ├── db.js
+ │   └── transactionDB.js
+ │
+ ├── services/              👈 thêm
+ │   └── transactionService.js
+ │
+ ├── context/
+ │   └── TransactionContext.js
+ │
+ ├── screens/
+ │   ├── HomeScreen.js
+ │   ├── AddScreen.js
+ │   ├── ListScreen.js
+ │   └── EditScreen.js
+ │
+ ├── components/
+ │   ├── TransactionItem.js
+ │   └── Header.js
+ │
+ ├── navigation/           👈 thêm
+ │   └── AppNavigator.js
+ │
+ ├── hooks/                👈 optional (rất nên có)
+ │   └── useTransactions.js
+ │
+ └── utils/
+     ├── format.js
+     └── constants.js
+
 ## 📅 Tổng quan tiến độ
 
 | Ngày   | Nội dung chính    | Mục tiêu                     | Trạng thái |
