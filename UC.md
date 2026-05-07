@@ -1,3 +1,18 @@
+UC TỔNG QUÁT
+<img width="375" height="376" alt="image" src="https://github.com/user-attachments/assets/72646816-2ebc-455c-a72b-33623d31ea0f" />
+
+
+| STT | Use Case Tổng Quát (Module) | Use Case Chi Tiết Thành Phần | Vai trò và Chức năng cốt lõi |
+| :--- | :--- | :--- | :--- |
+| 1 | **Xác thực danh tính** | **UC01:** Đăng nhập / Đăng ký | Quản lý quyền truy cập và bảo mật danh tính người dùng. |
+| 2 | **Quản lý hồ sơ cá nhân** | **UC02:** Quản lý hồ sơ cá nhân | Thay đổi thông tin định danh, bảo mật tài khoản và quản lý phiên làm việc. |
+| 3 | **Quản lý giao dịch** | **UC04:** Xem danh sách giao dịch<br>**UC05:** Thêm giao dịch mới<br>**UC06:** Cập nhật / Xóa giao dịch | Thực hiện trọn bộ các thao tác nghiệp vụ (CRUD) trên dữ liệu thu chi thực tế. |
+| 4 | **Quản lý ngân sách** | **UC07:** Quản lý ngân sách | Thiết lập kế hoạch tài chính, quản lý hạn mức và tính toán số dư kế chuyển. |
+| 5 | **Theo dõi & Phân tích** | **UC03:** Xem tổng quan (Dashboard)<br>**UC08:** Xem báo cáo thống kê | Tổng hợp dữ liệu, trực quan hóa qua biểu đồ và đưa ra các cảnh báo tài chính thông minh. |
+| 6 | **Xem thông tin ứng dụng** | **UC09:** Xem hướng dẫn sử dụng<br>**UC10:** Xem chính sách bảo mật | Cung cấp tài liệu hỗ trợ và các quy định pháp lý về an toàn dữ liệu. |
+
+---
+*Ghi chú: Việc gộp nhóm các Use Case chi tiết vào các Module tổng quát giúp tài liệu thiết kế hệ thống trở nên mạch lạc, dễ quản lý và giúp lập trình viên nắm bắt luồng nghiệp vụ nhanh chóng.*
 UC07: Quản lý ngân sách
 
 <img width="627" height="272" alt="image" src="https://github.com/user-attachments/assets/116ad028-85a5-4606-afda-3af698a8f49c" />
